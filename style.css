@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://imgs.search.brave.com/NfQCPKHwNW2L2taXJl0O3QQ87IlzJtivkbVOq5qx_5k/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2LzkyLzI2LzUw/LzM2MF9GXzY5MjI2/NTA0NF9lUklOM0o2/U0lmWWt2VzFGS01L/N2lFbDI0VWY5VTVv/Qi5qcGc");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  color: antiquewhite;
+}
+.box {
+  height: 600px;
+  width: 400px;
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+.detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.size {
+  font-size: 50px;
+}
+.inc {
+  font-size: 30px;
+}
+.uv_index {
+  border: 2px black solid;
+  padding: 5px 30px 5px 30px;
+  border-radius: 20px;
+  border-color: beige;
+}
+.wind {
+  border: 2px black solid;
+  padding: 5px 40px 5px 40px;
+  border-radius: 20px;
+  border-color: beige;
+}
